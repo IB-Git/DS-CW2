@@ -56,7 +56,7 @@ public class GRPCClientService {
         public FileUploadResponse fileUpload(@RequestParam("file") MultipartFile file,@RequestParam("deadline") int deadline){
                 
                 fileName = file.getOriginalFilename(); // get file name 
-                String filePathServer = "/home/ubuntu/grpcNew/Files"; // use to save file for server development 
+                String filePathServer = "/home/ishaanbhatiaqm/DistributedMatrixMultiplication/grpcNew/Files"; // use to save file for server development 
 
 
                 uploadFilePath = filePathServer;
